@@ -1,6 +1,4 @@
-# mius
-
-> A Vue.js project
+# some vue projects
 
 >整合之前写过的vue项目（请打开移动设备的调试窗口浏览和开发），运行需安装以下依赖：（不足之处欢迎pull requests交流，项目只限于学习交流）
 
