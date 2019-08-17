@@ -11,7 +11,11 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "element-ui": "^2.11.1",
+    "font": "^0.0.4",
+    "font-awesome": "^4.7.0",
     "lib-flexible": "^0.3.2",
+    "swiper": "^4.5.0",
     "vue": "^2.5.2",
     "vue-axios": "^2.1.4",
     "vue-router": "^3.0.1"
