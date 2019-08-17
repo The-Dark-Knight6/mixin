@@ -18,6 +18,8 @@ import psw from '@/components/psw'
 import first from '../csdn/first'
 import topic from '../csdn/topic'
 import names from '../csdn/names'
+//这是测试的版块
+import just_test from '../components/just_test'
 
 Vue.use(Router)
 // 配置vue-html5-editor 直接复制粘贴
@@ -223,6 +225,9 @@ export default new Router({
       path : '/user/:name',
       name : 'names',
       component : names
-    }
+    },{
+      path : '/just_test',
+      component : just_test
+    },
   ]
 })

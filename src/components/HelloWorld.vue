@@ -4,120 +4,54 @@
     <h2>Essential Links</h2>
     <ul>
       <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Core Docs
-        </a>
+        <a href="https://vuejs.org" target="_blank">Core Docs</a>
       </li>
       <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
-          Forum
-        </a>
+        <a href="https://forum.vuejs.org" target="_blank">Forum</a>
       </li>
       <li>
-        <a
-          href="https://chat.vuejs.org"
-          target="_blank"
-        >
-          Community Chat
-        </a>
+        <a href="https://chat.vuejs.org" target="_blank">Community Chat</a>
       </li>
       <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
+        <a href="https://twitter.com/vuejs" target="_blank">Twitter</a>
       </li>
-      <br>
+      <br />
       <li>
-        <a
-          href="http://vuejs-templates.github.io/webpack/"
-          target="_blank"
-        >
-          Docs for This Template
-        </a>
+        <a href="http://vuejs-templates.github.io/webpack/" target="_blank">Docs for This Template</a>
       </li>
     </ul>
     <h2>Ecosystem</h2>
     <ul>
       <li>
-        <a
-          href="http://router.vuejs.org/"
-          target="_blank"
-        >
-          vue-router
-        </a>
+        <a href="http://router.vuejs.org/" target="_blank">vue-router</a>
       </li>
       <li>
-        <a
-          href="http://vuex.vuejs.org/"
-          target="_blank"
-        >
-          vuex
-        </a>
+        <a href="http://vuex.vuejs.org/" target="_blank">vuex</a>
       </li>
       <li>
-        <a
-          href="http://vue-loader.vuejs.org/"
-          target="_blank"
-        >
-          vue-loader
-        </a>
+        <a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a>
       </li>
       <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-        >
-          awesome-vue
-        </a>
+        <a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a>
       </li>
       <h2>click on here</h2>
       <li>
-        <a
-          href="./list"
-          target="_self"
-        >
-          喵咖挑战列表
-        </a>
+        <a href="./list" target="_self">喵咖挑战列表</a>
       </li>
       <li>
-        <a
-          href="./mk"
-          target="_self"
-        >
-          喵咖首页
-        </a>
+        <a href="./mk" target="_self">喵咖首页</a>
       </li>
       <li>
-        <a
-          href="./challenge"
-          target="_self"
-        >
-          喵咖栏目列表
-        </a>
+        <a href="./challenge" target="_self">喵咖栏目列表</a>
       </li>
       <li>
-        <a
-          href="./miao"
-          target="_self"
-        >
-          喵友俱乐部
-        </a>
+        <a href="./miao" target="_self">喵友俱乐部</a>
       </li>
       <li>
-        <a
-         href="/csdn_first"
-        >
-          CSDN_list
-        </a>
+        <a href="/csdn_first">CSDN_list</a>
+      </li>
+      <li>
+        <a href="/just_test">Test</a>
       </li>
     </ul>
   </div>
@@ -125,18 +59,19 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
-  data () {
+  name: "HelloWorld",
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+      msg: "Welcome to Your Vue.js App"
+    };
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 ul {
@@ -149,6 +84,6 @@ li {
 }
 a {
   color: #42b983;
-  font-size: .5rem;
+  font-size: 0.5rem;
 }
 </style>
